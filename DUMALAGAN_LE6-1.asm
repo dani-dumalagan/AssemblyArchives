@@ -18,7 +18,7 @@ DATA SEGMENT
       COM_REG EQU 0F6H ; Command Register Address
       
       ; LCD message strings
-      MSG1 DB "HELLO!","$"
+      MSG1 DB "HELLO WORLD!","$"
 DATA ENDS
 
 CODE SEGMENT PUBLIC 'CODE'
